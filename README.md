@@ -50,23 +50,16 @@ What is the general goal/task of this how-to/tutorial?
 
 ## Requirements
 
-### Prerequisites
+For the Version 1.0.0 of the application SIMOTION Trace Connector the following requirements are necessary:
 
-What are the requirements on the user knowledge, HW components before starting the how-to?
-
-### Used components
-
-List the used software and hardware components that were tested with this how-to.
-Add the used components here (e.g.)
-
-* Industrial Edge App Publisher V1.0.8
-* Docker Engine 18.09.6
-* Docker Compose V2.4
-* S7 Connector V 1.0.22
-* S7 Connector Configurator V 1.0.9
-* Industrial Edge Device V 1.0.0-34
-* TIA Portal V16
-* PLC: CPU 1511 FW 2.8.3
+* The WebServer of the SIMOTION needs to be activated. This also enables automatically the used OPC XML DA protocol. 
+* Open port 80 for Webserver and OPC XML DA
+* SIMOTION Firmware Version V4.1 or newer 
+* Industrial Edge Device with RT V1 or higher
+  * Device license: 6ES7823-0EE00-4AY0
+  * Device: 6ES7647-8BD31-0CW1
+  
+**Notice:** the app is currently not running on WinCC Comfort Panels with integrated Edge functionality
 
 ## Installation
 
