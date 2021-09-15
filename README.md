@@ -17,7 +17,7 @@ How to configure and execute tracejobs via web-based SIMOTION Trace connector ap
 
 ### Overview
 
-SIMOTION Trace connector is a web-based application running on SIEMENS Industrial Edge V1.0. 
+SIMOTION Trace connector is a web-based application running on SIEMENS Industrial Edge 
 
 
 ### General Task
@@ -30,7 +30,7 @@ webserver interface and download the recorded traced data to the Edge device.
 
 ## Requirements
 
-For the Version 1.0.0 of the application SIMOTION Trace connector the following requirements are necessary:
+For the SIMOTION Trace connector application the following requirements are necessary:
 
 * The WebServer of the SIMOTION needs to be activated. This also enables automatically the used OPC XML DA protocol. 
 * Open port 80 for Webserver and OPC XML DA
@@ -43,7 +43,7 @@ For the Version 1.0.0 of the application SIMOTION Trace connector the following 
 
 ## Installation
 
-To install SIMOTION Trace connector on your device your Edge device, you need to request application example. 
+To install SIMOTION Trace connector on your Edge device, you need to request application example. 
 It can be done using the link provided below. This link opens a request form. 
 
 Since it is a generic form please type in the name of the application that you request, the contact information of your local Siemens representative or distributor and your corporate email (cc email box).
@@ -72,8 +72,6 @@ Application functionality and user scenarios are detailed in user documentation.
 
 You can also find further documentation and help in the following links:
 
-
-* [Siemens Industry Online Support](https://support.industry.siemens.com/cs/document/109784249/industrial-edge-simotion-trace-connector?dti=0&lc=en-US)
 * [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
 * [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
 * [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
