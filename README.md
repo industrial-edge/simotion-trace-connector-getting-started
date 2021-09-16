@@ -9,6 +9,7 @@ How to configure and execute tracejobs via web-based SIMOTION Trace connector ap
   * [Requirements](#requirements)
   * [Installation](#installation)
   * [Usage](#usage)
+  * [How to create your first trace](#how-to-create-your-first-trace)
   * [Documentation](#documentation)
   * [Contribution](#contribution)
   * [Licence and Legal Information](#licence-and-legal-information)
@@ -62,6 +63,20 @@ When the app is installed, it offers the following functionality:
 * Visualization of the trace data
 * Publishing of the trace results via MQTT data bus
 * External triggering and status monitoring of the tracejobs via MQTT
+
+## How to create your first trace
+Following instructions describe the main steps how to successfully create your first trace:
+* Connect  new SIMOTION, using correct IP address and a SIMOTION name
+![connect SIMOTION](docs/graphics/connect-new-simotion.png)
+  
+* Preselect variables that will later be used to configure the tracejobs
+![preselect variables](docs/graphics/preselect-variables.png)
+  
+* Configure and schedule tracejob
+![configure tracejob](docs/graphics/create-tracejob.png)
+  
+* Check information about executed tracejobs
+![logbook](docs/graphics/logged-tracejobs.png)
 
 ## Documentation
 
