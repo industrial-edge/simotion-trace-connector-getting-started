@@ -66,16 +66,16 @@ When the app is installed, it offers the following functionality:
 
 ## How to create your first trace
 Following instructions describe the main steps how to successfully create your first trace:
-* Connect  new SIMOTION, using correct IP address and a SIMOTION name
+1. Connect  new SIMOTION, using correct IP address and a SIMOTION name
 ![connect SIMOTION](docs/graphics/connect-new-simotion.png)
   
-* Preselect variables that will later be used to configure the tracejobs
+2. Preselect variables that will later be used to configure the tracejobs
 ![preselect variables](docs/graphics/preselect-variables.png)
   
-* Configure and schedule tracejob
+3. Configure and schedule tracejob
 ![configure tracejob](docs/graphics/create-tracejob.png)
   
-* Check information about executed tracejobs
+4. Check information about executed tracejobs
 ![logbook](docs/graphics/logged-tracejobs.png)
 
 ## Documentation
