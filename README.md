@@ -70,7 +70,7 @@ Following instructions describe the main steps how to successfully create your f
 
 Application functionality and user scenarios are detailed in user documentation.
 
-[User documentation]()
+[User documentation](https://cache.industry.siemens.com/dl/files/249/109784249/att_1062860/v1/109784249_V1.1.0_SIMOTIONTraceConnector_UserDocumentation_en.pdf)
 
 
 You can also find further documentation and help in the following links:
@@ -84,7 +84,7 @@ You can also find further documentation and help in the following links:
 
 To get the application and receive additional information about the application, please follow the link to Siemens Industry Online Support  provided below.
 
-[comment]: <> ([Industrial Edge: SIMOTION Trace Connector]&#40;https://support.industry.siemens.com/cs/document/109784249/industrial-edge-simotion-trace-connector?dti=0&lc=en-US&#41;)
+[Industrial Edge: SIMOTION Trace Connector](https://support.industry.siemens.com/cs/document/109784249/industrial-edge-simotion-trace-connector?dti=0&lc=en-US)
 
 ## Contribution
 
