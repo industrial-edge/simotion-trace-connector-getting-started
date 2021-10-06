@@ -7,10 +7,9 @@ How to configure and execute tracejobs via web-based SIMOTION Trace connector ap
     * [Overview](#overview)
     * [General Task](#general-task)
   * [Requirements](#requirements)
-  * [Installation](#installation)
   * [Usage](#usage)
   * [How to create your first trace](#how-to-create-your-first-trace)
-  * [Documentation](#documentation)
+  * [Get application and more information](#get-application-and-more-information)
   * [Contribution](#contribution)
   * [Licence and Legal Information](#licence-and-legal-information)
 
@@ -42,17 +41,6 @@ For the SIMOTION Trace connector application the following requirements are nece
   
 **Notice:** the app is currently not running on WinCC Comfort Panels with integrated Edge functionality
 
-## Installation
-
-To install SIMOTION Trace connector on your Edge device, you need to request application example. 
-It can be done using the link provided below. This link opens a request form. 
-
-Since it is a generic form please type in the name of the application that you request, the contact information of your local Siemens representative or distributor and your corporate email (cc email box).
-
-
-[Request application](https://siemens.sharepoint.com/teams/P0016970/Lists/APCApp/NewForm.aspx?Source=https://support.industry.siemens.com/cs/products?dtp=ExampleOfUse&mfn=ps&lc=en-EN) 
-
-
 ## Usage
 
 When the app is installed, it offers the following functionality:
@@ -82,7 +70,7 @@ Following instructions describe the main steps how to successfully create your f
 
 Application functionality and user scenarios are detailed in user documentation.
 
-[User documentation](docs/documentation/TraceConnector_documentation.pdf)
+[User documentation]()
 
 
 You can also find further documentation and help in the following links:
@@ -91,6 +79,12 @@ You can also find further documentation and help in the following links:
 * [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
 * [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
 * [Industrial Edge GitHub page](https://github.com/industrial-edge)
+
+## Get application and more information
+
+To get the application and receive additional information about the application, please follow the link to Siemens Industry Online Support  provided below.
+
+[comment]: <> ([Industrial Edge: SIMOTION Trace Connector]&#40;https://support.industry.siemens.com/cs/document/109784249/industrial-edge-simotion-trace-connector?dti=0&lc=en-US&#41;)
 
 ## Contribution
 
