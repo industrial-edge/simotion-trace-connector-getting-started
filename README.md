@@ -1,38 +1,15 @@
-# Writing good how-to or tutorial
+# Creating tracejobs in SIMOTION Trace connector
 
-Before you start writing, read the following materials how to write good documentation (including how-tos).
+How to configure and execute tracejobs via web-based SIMOTION Trace connector application.
 
-* [Google Developer style guide](https://developers.google.com/style)
-* [Technical writing Courses](https://developers.google.com/tech-writing)
-* [Microsoft Writing Style Guide](https://docs.microsoft.com/cs-cz/style-guide/welcome/)
-
-Then decide: Are you writing a tutorial or a how-to guide?
-
-[Divio](https://documentation.divio.com/) explains the difference  (Note that this applies for software documentation for application developers)
-
-* Tutorials are lessons that take the reader by the hand through a series of steps to complete a project of some kind. They are what your project needs in order to show a beginner that they can achieve something with it. https://documentation.divio.com/tutorials/
-* How-to guides take the reader through the steps required to solve a real-world problem
-
-Each have a different writing style. Tutorials must be bullet proof (no unexpected behavior) https://documentation.divio.com/how-to-guides/
-
-Note: Try to write the tutorials and how-tos as a standalone html page, ready to be generated using Static site generator [MkDocs](https://www.mkdocs.org/). When referencing code examples or files, use the full URL of the git repository. We want to reuse these how-tos and tutorials in Documentation website.
-
-Don't explain concepts. [It gets in a way of action](https://documentation.divio.com/how-to-guides/#don-t-explain-concepts).  
-
-Don't use HTML tags unless working with videos. And try to avoid using videos unless absolutely necessary. Don't upload videos to Git repository.
-
-Bellow you can find the structure of IE tow-to/tutorial
-
-* [Writing good how-to or tutorial](#writing-good-how-to-or-tutorial)
+* [Tracejobs configuration and execution](#trace-connector-tutorial)
   * [Description](#description)
     * [Overview](#overview)
     * [General Task](#general-task)
   * [Requirements](#requirements)
-    * [Prerequisites](#prerequisites)
-    * [Used components](#used-components)
-  * [Installation](#installation)
   * [Usage](#usage)
-  * [Documentation](#documentation)
+  * [How to create your first trace](#how-to-create-your-first-trace)
+  * [Get application and more information](#get-application-and-more-information)
   * [Contribution](#contribution)
   * [Licence and Legal Information](#licence-and-legal-information)
 
@@ -40,58 +17,74 @@ Bellow you can find the structure of IE tow-to/tutorial
 
 ### Overview
 
-Why has been this how-to/tutorial created? What is the purpose?
+SIMOTION Trace connector is a web-based application running on SIEMENS Industrial Edge 
+
 
 ### General Task
 
-What is the general goal/task of this how-to/tutorial?
+This tutorial was created to help user to configure and execute tracejobs via the SIMOTION
+webserver interface and download the recorded traced data to the Edge device.
 
-![task](docs/graphics/example_graphic.png)
+
+![task](docs/graphics/SIMOTION_Trace_Connector_App_Diagram_595x277_en.jpg)
 
 ## Requirements
 
-### Prerequisites
+For the SIMOTION Trace connector application the following requirements are necessary:
 
-What are the requirements on the user knowledge, HW components before starting the how-to?
-
-### Used components
-
-List the used software and hardware components that were tested with this how-to.
-Add the used components here (e.g.)
-
-* Industrial Edge App Publisher V1.0.8
-* Docker Engine 18.09.6
-* Docker Compose V2.4
-* S7 Connector V 1.0.22
-* S7 Connector Configurator V 1.0.9
-* Industrial Edge Device V 1.0.0-34
-* TIA Portal V16
-* PLC: CPU 1511 FW 2.8.3
-
-## Installation
-
-How to install/run this application example? (i.e. how to deploy it to Industrial Edge device?) How to build this application? How to set up configurations in IE?
-
-To keep the readme.md file as short as possible please add more detailed information in the docs folder.
-
-* [Build application](docs/Installation.md#build-application)
+* The WebServer of the SIMOTION needs to be activated. This also enables automatically the used OPC XML DA protocol. 
+* Open port 80 for Webserver and OPC XML DA
+* SIMOTION Firmware Version V4.1 or newer 
+* Industrial Edge Device with RT V1 or higher
+  * Device license: 6ES7823-0EE00-4AY0
+  * Device: 6ES7647-8BD31-0CW1
+  
+**Notice:** the app is currently not running on WinCC Comfort Panels with integrated Edge functionality
 
 ## Usage
 
-When the app is installed, how can I use it? Usually some basic UI description to prove that the app is working correctly.
+When the app is installed, it offers the following functionality:
+
+* Definition of tracejobs (variables, trace duration, trigger condition)
+* Automatic execution and scheduling of the tracejobs
+* Remanet storage of the trace results
+* Visualization of the trace data
+* Publishing of the trace results via MQTT data bus
+* External triggering and status monitoring of the tracejobs via MQTT
+
+## How to create your first trace
+Following instructions describe the main steps how to successfully create your first trace:
+1. Connect  new SIMOTION, using correct IP address and a SIMOTION name
+![connect SIMOTION](docs/graphics/connect-new-simotion.png)
+  
+2. Preselect variables that will later be used to configure the tracejobs
+![preselect variables](docs/graphics/preselect-variables.png)
+  
+3. Configure and schedule tracejob
+![configure tracejob](docs/graphics/create-tracejob.png)
+  
+4. Check information about executed tracejobs
+![logbook](docs/graphics/logged-tracejobs.png)
 
 ## Documentation
 
-Add links to documentation. Either on external URL or in the doc folder. Please use always link to a file not to a directory (it doesn't work with static site generator engines).
+Application functionality and user scenarios are detailed in user documentation.
 
-Add these links:
+[User documentation](https://cache.industry.siemens.com/dl/files/249/109784249/att_1062860/v1/109784249_V1.1.0_SIMOTIONTraceConnector_UserDocumentation_en.pdf)
 
-You can find further documentation and help in the following links
+
+You can also find further documentation and help in the following links:
 
 * [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
 * [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
 * [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
 * [Industrial Edge GitHub page](https://github.com/industrial-edge)
+
+## Get application and more information
+
+To get the application and receive additional information about the application, please follow the link to Siemens Industry Online Support  provided below.
+
+[Industrial Edge: SIMOTION Trace Connector](https://support.industry.siemens.com/cs/document/109784249/industrial-edge-simotion-trace-connector?dti=0&lc=en-US)
 
 ## Contribution
 
