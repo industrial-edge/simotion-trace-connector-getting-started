@@ -70,7 +70,7 @@ Following instructions describe the main steps how to successfully create your f
 
 Application functionality and user scenarios are detailed in user documentation.
 
-[User documentation](https://cache.industry.siemens.com/dl/files/249/109784249/att_1062860/v1/109784249_V1.1.0_SIMOTIONTraceConnector_UserDocumentation_en.pdf)
+[User documentation](docs/user_manual/109784249_SIMOTIONTraceConnector_UserManual_1_2_0.pdf)
 
 
 You can also find further documentation and help in the following links:
