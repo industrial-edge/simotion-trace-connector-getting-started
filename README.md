@@ -34,7 +34,8 @@ For the SIMOTION Trace connector application the following requirements are nece
 
 * The WebServer of the SIMOTION needs to be activated. This also enables automatically the used OPC XML DA protocol. 
 * Open port 80 for Webserver and OPC XML DA
-* SIMOTION Firmware Version V4.1 or newer 
+* Only DXXX-2 Series hardware is supported, older generation SIMOTION DXXX are not supported.
+* SIMOTION Firmware Version V4.4 or newer 
 * Industrial Edge Device with RT V1 or higher
   * Device license: 6ES7823-0EE00-4AY0
   * Device: 6ES7647-8BD31-0CW1
