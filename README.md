@@ -83,9 +83,9 @@ You can also find further documentation and help in the following links:
 
 ## Get application and more information
 
-To get the application and receive additional information about the application, please follow the link to Siemens Industry Online Support  provided below.
+To get the application and receive additional information about the application, please get in touch with us.
 
-[Industrial Edge: SIMOTION Trace Connector](https://support.industry.siemens.com/cs/document/109784249/industrial-edge-simotion-trace-connector?dti=0&lc=en-US)
+[Industrial Edge: SIMOTION Trace Connector](mailto:christian.prechtel@siemens.com?subject=SIMOTIONTraceConnector-GitHub)
 
 ## Contribution
 
