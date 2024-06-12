@@ -85,7 +85,7 @@ You can also find further documentation and help in the following links:
 
 To get the application and receive additional information about the application, please get in touch with us.
 
-[Industrial Edge: SIMOTION Trace Connector](mailto:christian.prechtel@siemens.com?subject=SIMOTIONTraceConnector-GitHub)
+[Industrial Edge: SIMOTION Trace Connector](mailto:pma_dmi.industry@siemens.com?subject=SIMOTIONTraceConnector-GitHub)
 
 ## Contribution
 
